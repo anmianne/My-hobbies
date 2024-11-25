@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 25px;
+}
+
+body {
+  font-family: Parkinsans, sans-serif;
+  text-align: center;
+}
+
+section {
+  padding: 70px 0;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 35px;
+}
+
+.books {
+  background-color: #f5f5dc;
+}
+.books_heading {
+  font-size: 1.4rem;
+}
+.books_text {
+  margin: 25px auto;
+  max-width: 800px;
+}
+.books_image {
+  width: 230px;
+  height: 310px;
+}
+.books_image:not(:last-child) {
+  margin-right: 25px;
+}
+
+.music {
+  background-color: #ebdecf;
+}
+.music_heading {
+  font-size: 1.4rem;
+}
+.music_text {
+  margin: 25px auto;
+  max-width: 800px;
+}
+.music_image {
+  width: 280px;
+  height: 280px;
+}
+.music_image:not(last-child) {
+  margin-right: 25px;
+}
+
+.sport {
+  background-color: #ffedf3;
+}
+.sport_heading {
+  font-size: 1.4rem;
+}
+.sport_text {
+  margin: 25px auto;
+  max-width: 800px;
+}
+.sport_image {
+  width: 630px;
+  height: 340px;
+}/*# sourceMappingURL=style.css.map */

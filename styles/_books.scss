@@ -1,0 +1,20 @@
+.books{
+    background-color: #f5f5dc;
+    &_heading {
+        font-size: 1.4rem;
+    }
+
+    &_text {
+        margin: 25px auto;
+        max-width: 800px;
+    }
+
+    &_image {
+        width: 230px;
+        height: 310px;
+    }
+
+    &_image:not(:last-child) {
+        margin-right: 25px;
+    }
+}

@@ -1,0 +1,17 @@
+.sport {
+    background-color: #ffedf3;
+    &_heading {
+        font-size: 1.4rem;
+    }
+    
+    &_text {
+        margin: 25px auto;
+        max-width: 800px;
+
+    }
+
+    &_image {
+        width: 630px;
+        height: 340px;
+    }
+}

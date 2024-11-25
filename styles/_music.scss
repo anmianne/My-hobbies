@@ -1,0 +1,20 @@
+.music {
+    background-color: #ebdecf;
+    &_heading {
+        font-size: 1.4rem;
+    }
+
+    &_text {
+        margin: 25px auto;
+        max-width: 800px;
+    }
+
+    &_image {
+        width: 280px;
+        height: 280px;
+    }
+
+    &_image:not(last-child) {
+        margin-right: 25px;
+    }
+}
